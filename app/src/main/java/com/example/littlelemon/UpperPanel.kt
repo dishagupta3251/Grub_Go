@@ -72,7 +72,7 @@ fun UpperPanel(){
         ) {
             Text(
                 text = stringResource(id = R.string.orderbuttontext),
-                fontSize = 18.sp,
+                fontSize = 19.sp,
                 fontWeight = FontWeight.Bold,
                 color = Color(0xFF333333)
             )
