@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LilLemon</string>
+    <string name="title">Grub Go</string>
+    <string name="location">Lucknow</string>
+    <string name="description">Experience authentic and tradition taste of Lucknow as we serve you and your family</string>
+    <string name="orderbuttontext">Order Take Away</string>
+</resources>
