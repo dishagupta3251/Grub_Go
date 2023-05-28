@@ -1,14 +1,9 @@
 package com.example.littlelemon
 
-import android.widget.Toast
-import android.widget.Toast.makeText
-import androidx.compose.animation.core.animateIntSizeAsState
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
-import androidx.compose.foundation.layout.fillMaxHeight
-import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
@@ -20,7 +15,6 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
@@ -30,7 +24,7 @@ import androidx.compose.ui.unit.sp
 
 @Composable
 fun UpperPanel(){
-    val context = LocalContext.current
+
     Column(
         modifier = Modifier
             .background(Color(0xFF495E57))
@@ -72,7 +66,7 @@ fun UpperPanel(){
         ) {
             Text(
                 text = stringResource(id = R.string.orderbuttontext),
-                fontSize = 18.sp,
+                fontSize = 20.sp,
                 fontWeight = FontWeight.Bold,
                 color = Color(0xFF333333)
             )
